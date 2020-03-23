@@ -85,8 +85,8 @@ function swapLang(val) {
         tmp = '_en'
         langFlag = 'en'
     } else {
-        tmp = ''
-        langFlag = 'kr'
+        tmp = '_en'
+        langFlag = 'cn'
     }
     for (var i in lang) {
         $('#' + i).find('img').attr('src', 'images/ui/' + i + tmp + '.svg');

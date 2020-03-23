@@ -4,8 +4,8 @@ lang = {
     BM: '',
     edit: '',
     data: {
-        kr: '[200219] 해루스킨 2 by 해루@모그리',
-        en: '[200219] HAERUSKIN 2 by KR/HAERU@Moogle'
+        en: 'Yorushika [200323] Based on 200219',
+        cn: 'Yorushika 绿叶小踢腿@猫小胖[海猫茶屋] [200323] 基于原版 200219'
     },
     size: {
         1: '55.5%',
@@ -23,95 +23,95 @@ lang = {
     },
     lang: {
         0: 'English',
-        1: '한국어'
+        1: '简体中文',
     },
     thema: {
         1: {
-            kr: '소울 크리스탈',
             en: 'Soul Crystal',
+            cn: '灵魂水晶',
             color: '#4FC3F7'
         },
         2: {
-            kr: '파스텔',
             en: 'Pastel',
+            cn: '蜡笔画',
             color: '#FFAB91'
         },
         3: {
-            kr: '역할',
             en: 'Role',
+            cn: '角色',
             color: '#CDDC39'
         },
         4: {
-            kr: '민트초코',
             en: 'Mint & Chocolate',
+            cn: '薄荷巧克力',
             color: '#0db9ab'
         },
         5: {
-            kr: '임금님의 ACT',
             en: 'The Emperor\'s ACT',
+            cn: '帝王ACT',
             color: '#B39DDB'
         },
         6: {
-            kr: '벚꽃엔딩',
             en: 'Cherry Blossom',
+            cn: '樱花',
             color: '#fa86c3'
         },
         7: {
-            kr: '무지개',
             en: 'Rainbow',
+            cn: '彩虹',
             color: '#ffbb00'
         }
     },
     graph: {
         1: {
-            kr: '바',
-            en: 'Bar'
+            en: 'Bar',
+            cn: '条状'
         },
         2: {
-            kr: '그라데이션',
-            en: 'Gradient'
+            en: 'Gradient',
+            cn: '梯度'
         },
         3: {
-            kr: '언더라인',
-            en: 'Underline'
+            en: 'Underline',
+            cn: '下划线'
         }
     },
     number: {
         0: {
-            kr: '정수',
-            en: 'Integer'
+            en: 'Integer',
+            cn: '整型'
         },
         1: {
-            kr: '소수',
-            en: 'Decimal'
+            en: 'Decimal',
+            cn: '小数'
         }
     },
     pets: {
         0: {
-            kr: '분리',
-            en: 'Separate'
+            en: 'Separate',
+            cn: '分离'
         },
         1: {
-            kr: '합산',
-            en: 'Combine'
+            en: 'Combine',
+            cn: '组合'
         }
     },
     name: {
         0: {
-            kr: '숨기기',
-            en: 'Hide'
+            en: 'Hide',
+            cn: '隐藏'
         },
         1: {
-            kr: '보이기',
-            en: 'Show'
+            en: 'Show',
+            cn: '显示'
         }
     },
     elements: {
         Job: {
             title: "Job",
             ex: {
-                kr: '클래스 또는 직업 아이콘',
-                en: 'Player\'s class or job icon.'
+                en: 'Player\'s class or job icon.',
+                cn: '玩家职业/特职图标'
             },
             DPS: true,
             HPS: true,
@@ -120,8 +120,8 @@ lang = {
         Name: {
             title: "Name",
             ex: {
-                kr: '캐릭터 이름',
-                en: 'The combatant\'s name.'
+                en: 'The combatant\'s name.',
+                cn: '玩家名称'
             },
             DPS: true,
             HPS: true,
@@ -130,8 +130,8 @@ lang = {
         PTime: {
             title: "P.Time",
             ex: {
-                kr: '전투 로그 수집 시간 (내 첫 공격 기준)',
-                en: 'The duration of the combatant.'
+                en: 'The duration of the combatant.',
+                cn: '个人战斗时间'
             },
             DPS: false,
             HPS: 'block',
@@ -140,8 +140,8 @@ lang = {
         PDPS: {
             title: "P.DPS",
             ex: {
-                kr: '초당 피해량 (P.Time 기준)',
-                en: 'The damage total of the combatant divided by their personal duration.'
+                en: 'The damage total of the combatant divided by their personal duration.',
+                cn: '玩家伤害总量除以个人战斗时间'
             },
             DPS: false,
             HPS: 'block',
@@ -150,8 +150,8 @@ lang = {
         Time: {
             title: "Time",
             ex: {
-                kr: '전투 로그 집계 시간 (파티 첫 공격 기준)',
-                en: 'The duration of the encounter.'
+                en: 'The duration of the encounter.',
+                cn: '战斗持续时间'
             },
             DPS: false,
             HPS: 'block',
@@ -160,8 +160,8 @@ lang = {
         DPS: {
             title: "DPS",
             ex: {
-                kr: '초당 피해량 (Time 기준, 공식)',
-                en: 'The damage total of the combatant divided by the duration of the encounter.<br>This is more commonly used than P.DPS'
+                en: 'The damage total of the combatant divided by the duration of the encounter.<br>This is more commonly used than P.DPS',
+                cn: '玩家总伤害除以战斗持续时间，比P.DPS更为常用'
             },
             DPS: true,
             HPS: 'block',
@@ -170,8 +170,8 @@ lang = {
         Last10: {
             title: "Last10",
             ex: {
-                kr: '최근 10초간 평균 DPS',
-                en: 'Average DPS for last 10 seconds.'
+                en: 'Average DPS for last 10 seconds.',
+                cn: '过去10秒内平均DPS'
             },
             DPS: false,
             HPS: 'block',
@@ -180,8 +180,8 @@ lang = {
         Last30: {
             title: "Last30",
             ex: {
-                kr: '최근 30초간 평균 DPS',
-                en: 'Average DPS for last 30 seconds.'
+                en: 'Average DPS for last 30 seconds.',
+                cn: '过去30秒内平均DPS'
             },
             DPS: false,
             HPS: 'block',
@@ -190,8 +190,8 @@ lang = {
         Last60: {
             title: "Last60",
             ex: {
-                kr: '최근 60초간 평균 DPS',
-                en: 'Average DPS for last 60 seconds.'
+                en: 'Average DPS for last 60 seconds.',
+                cn: '过去60秒内平均DPS'
             },
             DPS: false,
             HPS: 'block',
@@ -200,8 +200,8 @@ lang = {
         Last180: {
             title: "Last180",
             ex: {
-                kr: '최근 180초간 평균 DPS',
-                en: 'Average DPS for last 180 seconds.'
+                en: 'Average DPS for last 180 seconds.',
+                cn: '过去180秒内平均DPS'
             },
             DPS: false,
             HPS: 'block',
@@ -210,8 +210,8 @@ lang = {
         Dper: {
             title: "D%",
             ex: {
-                kr: '총 피해량 중 내 캐릭터의 기여율 (%)',
-                en: 'This value represents the percent share of all damage done by allies in this encounter.'
+                en: 'This value represents the percent share of all damage done by allies in this encounter.',
+                cn: '本场战斗团队伤害占比'
             },
             DPS: true,
             HPS: 'block',
@@ -220,8 +220,8 @@ lang = {
         Damage: {
             title: "Damage",
             ex: {
-                kr: '피해량',
-                en: 'The amount of damage.'
+                en: 'The amount of damage.',
+                cn: '伤害总量'
             },
             DPS: true,
             HPS: 'block',
@@ -230,8 +230,8 @@ lang = {
         Swing: {
             title: "Swing",
             ex: {
-                kr: '공격 횟수 (자동 공격, 도트, 기술 시전 취소 포함)',
-                en: 'The number of attack attempts.<br>This includes any auto-attacks or abilities, also including resisted abilities that do no damage.'
+                en: 'The number of attack attempts.<br>This includes any auto-attacks or abilities, also including resisted abilities that do no damage.',
+                cn: '尝试攻击次数<br>包括所有的自动攻击、技能释放和未产生伤害的无效技能'
             },
             DPS: true,
             HPS: 'block',
@@ -240,8 +240,8 @@ lang = {
         Hit: {
             title: "Hit",
             ex: {
-                kr: '공격 적중 횟수',
-                en: 'The number of attack attempts that produced damage.'
+                en: 'The number of attack attempts that produced damage.',
+                cn: '实际产生伤害的攻击次数'
             },
             DPS: false,
             HPS: 'block',
@@ -250,8 +250,8 @@ lang = {
         Miss: {
             title: "Miss",
             ex: {
-                kr: '공격 빗나감 횟수',
-                en: 'The number of auto-attacks of CAs that produced a miss message.'
+                en: 'The number of auto-attacks of CAs that produced a miss message.',
+                cn: '攻击失误次数'
             },
             DPS: true,
             HPS: 'block',
@@ -260,8 +260,8 @@ lang = {
         Avoid: {
             title: "Avoid",
             ex: {
-                kr: '공격 실패 횟수 (적의 저항, 반사, 막기, 회피 등)',
-                en: 'Any type of failed attack that was not a miss.<br>This includes resists, reflects, blocks, dodging, etc.'
+                en: 'Any type of failed attack that was not a miss.<br>This includes resists, reflects, blocks, dodging, etc.',
+                cn: '没有造成失误但失败的攻击<br>包括无效、反弹、格挡、闪避等'
             },
             DPS: false,
             HPS: 'block',
@@ -270,8 +270,8 @@ lang = {
         ACC: {
             title: "ACC",
             ex: {
-                kr: '명중률 (%)',
-                en: 'The percentage of hits to swings.'
+                en: 'The percentage of hits to swings.',
+                cn: '命中率'
             },
             DPS: false,
             HPS: 'block',
@@ -280,8 +280,8 @@ lang = {
         DHit: {
             title: "D.Hit",
             ex: {
-                kr: '직격 횟수',
-                en: 'The number of hits that were direct hit.'
+                en: 'The number of hits that were direct hit.',
+                cn: '直击次数'
             },
             DPS: false,
             HPS: 'block',
@@ -290,8 +290,8 @@ lang = {
         DHIT: {
             title: "D.HIT",
             ex: {
-                kr: '직격 발동률 (%)',
-                en: 'The percentage of hits that were direct hits.'
+                en: 'The percentage of hits that were direct hits.',
+                cn: '直击率'
             },
             DPS: false,
             HPS: 'block',
@@ -300,8 +300,8 @@ lang = {
         CHit: {
             title: "C.Hit",
             ex: {
-                kr: '공격 극대화 횟수',
-                en: 'The number of damaging attacks that were critical.'
+                en: 'The number of damaging attacks that were critical.',
+                cn: '暴击次数'
             },
             DPS: false,
             HPS: 'block',
@@ -310,8 +310,8 @@ lang = {
         CHIT: {
             title: "C.HIT",
             ex: {
-                kr: '공격 극대화율 (%)',
-                en: 'The percentage of damaging attacks that were critical.'
+                en: 'The percentage of damaging attacks that were critical.',
+                cn: '暴击率'
             },
             DPS: true,
             HPS: 'block',
@@ -320,8 +320,8 @@ lang = {
         CDHit: {
             title: "C.D.Hit",
             ex: {
-                kr: '직격 극대화 횟수',
-                en: 'The number of hits that were critical as well as direct hit.'
+                en: 'The number of hits that were critical as well as direct hit.',
+                cn: '直暴次数'
             },
             DPS: false,
             HPS: 'block',
@@ -330,8 +330,8 @@ lang = {
         CDHIT: {
             title: "C.D.HIT",
             ex: {
-                kr: '직격 극대화율 (%)',
-                en: 'The percentage of hits that were direct hits as well as critical hits.'
+                en: 'The percentage of hits that were direct hits as well as critical hits.',
+                cn: '直暴率'
             },
             DPS: false,
             HPS: 'block',
@@ -340,8 +340,8 @@ lang = {
         MaxHit: {
             title: "MaxHit",
             ex: {
-                kr: '최대 공격 기술',
-                en: 'The highest single damaging hit.'
+                en: 'The highest single damaging hit.',
+                cn: '单次最高伤害'
             },
             DPS: true,
             HPS: 'block',
@@ -350,8 +350,8 @@ lang = {
         HPS: {
             title: "HPS",
             ex: {
-                kr: '초당 치유량 (Time 기준, 공식)',
-                en: 'The healing total of the combatant divided by the duration of the encounter.'
+                en: 'The healing total of the combatant divided by the duration of the encounter.',
+                cn: '玩家治疗总量除以战斗持续时间'
             },
             DPS: 'block',
             HPS: true,
@@ -360,8 +360,8 @@ lang = {
         Hper: {
             title: "H%",
             ex: {
-                kr: '총 치유량 중 내 캐릭터의 기여율 (%)',
-                en: 'The value represents the percent share of all healing done by allies in this encounter.'
+                en: 'The value represents the percent share of all healing done by allies in this encounter.',
+                cn: '本场战斗团队治疗占比'
             },
             DPS: 'block',
             HPS: true,
@@ -370,8 +370,8 @@ lang = {
         Healed: {
             title: "Healed",
             ex: {
-                kr: '치유량',
-                en: 'The amount of healing.'
+                en: 'The amount of healing.',
+                cn: '治疗总量'
             },
             DPS: 'block',
             HPS: true,
@@ -380,8 +380,8 @@ lang = {
         EffHeal: {
             title: "Eff.Heal",
             ex: {
-                kr: '유효 치유량',
-                en: 'The amount of healing except for Overheal and D.Shield value.'
+                en: 'The amount of healing except for Overheal and D.Shield value.',
+                cn: '有效治疗量'
             },
             DPS: 'block',
             HPS: true,
@@ -390,8 +390,8 @@ lang = {
         DShield: {
             title: "D.Shield",
             ex: {
-                kr: '보호막의 피해 흡수량',
-                en: 'The amount of damage blocked by shield abilities of healer.'
+                en: 'The amount of damage blocked by shield abilities of healer.',
+                cn: '伤害吸收盾吸收量'
             },
             DPS: 'block',
             HPS: true,
@@ -400,8 +400,8 @@ lang = {
         OverHeal: {
             title: "OverHeal",
             ex: {
-                kr: '초과 치유량',
-                en: 'The amount of healing that made flood over 100% of health.'
+                en: 'The amount of healing that made flood over 100% of health.',
+                cn: '治疗溢出量'
             },
             DPS: 'block',
             HPS: true,
@@ -410,8 +410,8 @@ lang = {
         OHEAL: {
             title: "O.HEAL",
             ex: {
-                kr: '초과 치유율 (%)',
-                en: 'The percentage of heals above target\'s Max HP.'
+                en: 'The percentage of heals above target\'s Max HP.',
+                cn: '治疗溢出率'
             },
             DPS: 'block',
             HPS: true,
@@ -420,8 +420,8 @@ lang = {
         Heal: {
             title: "Heal",
             ex: {
-                kr: '치유 횟수 (도트, 기술 시전 취소 포함)',
-                en: 'The number of heals from this combatant.'
+                en: 'The number of heals from this combatant.',
+                cn: '治疗次数'
             },
             DPS: 'block',
             HPS: false,
@@ -430,8 +430,8 @@ lang = {
         CHeal: {
             title: "C.Heal",
             ex: {
-                kr: '치유 극대화 횟수',
-                en: 'The number of heals that were critical.'
+                en: 'The number of heals that were critical.',
+                cn: '治疗暴击数'
             },
             DPS: 'block',
             HPS: false,
@@ -440,8 +440,8 @@ lang = {
         CHEAL: {
             title: "C.HEAL",
             ex: {
-                kr: '치유 극대화율 (%)',
-                en: 'The percentage of heals that were critical.'
+                en: 'The percentage of heals that were critical.',
+                cn: '治疗暴击率'
             },
             DPS: 'block',
             HPS: false,
@@ -450,8 +450,8 @@ lang = {
         MaxHeal: {
             title: "MaxHeal",
             ex: {
-                kr: '최대 치유 기술',
-                en: 'The highest single healing amount.'
+                en: 'The highest single healing amount.',
+                cn: '单次最高治疗'
             },
             DPS: 'block',
             HPS: false,
@@ -460,8 +460,8 @@ lang = {
         DTaken: {
             title: "D.Taken",
             ex: {
-                kr: '받은 피해량',
-                en: 'The amount of damage this combatant received.'
+                en: 'The amount of damage this combatant received.',
+                cn: '遭伤害量'
             },
             DPS: false,
             HPS: 'block',
@@ -470,8 +470,8 @@ lang = {
         HTaken: {
             title: "H.Taken",
             ex: {
-                kr: '받은 치유량',
-                en: 'The amount of healing this combatant received.'
+                en: 'The amount of healing this combatant received.',
+                cn: '被治疗量'
             },
             DPS: false,
             HPS: 'block',
@@ -480,8 +480,8 @@ lang = {
         Absorb: {
             title: "HP",
             ex: {
-                kr: '기술을 통한 HP 회복량',
-                en: 'The amount of power this combatant drained from others.<br>(ex. Mercy Stroke etc)'
+                en: 'The amount of power this combatant drained from others.<br>(ex. Mercy Stroke etc)',
+                cn: '生命汲取量'
             },
             DPS: false,
             HPS: false,
@@ -490,8 +490,8 @@ lang = {
         Replenish: {
             title: "MP",
             ex: {
-                kr: '기술을 통한 MP 회복량',
-                en: 'The amount of power this combatant replenished to others.<br>(ex. Aetherflow etc)'
+                en: 'The amount of power this combatant replenished to others.<br>(ex. Aetherflow etc)',
+                cn: '魔力汲取量'
             },
             DPS: false,
             HPS: false,
@@ -500,8 +500,8 @@ lang = {
         PARRY: {
             title: "PARRY",
             ex: {
-                kr: '받아넘기기 발동률 (%)',
-                en: 'The percentage of hits that were parried.'
+                en: 'The percentage of hits that were parried.',
+                cn: '招架率'
             },
             DPS: false,
             HPS: 'block',
@@ -510,8 +510,8 @@ lang = {
         BLOCK: {
             title: "BLOCK",
             ex: {
-                kr: '방패막기 발동률 (%)',
-                en: 'The percentage of hits that were blocked.'
+                en: 'The percentage of hits that were blocked.',
+                cn: '格挡率'
             },
             DPS: false,
             HPS: 'block',
@@ -520,8 +520,8 @@ lang = {
         Dispel: {
             title: "Dispel",
             ex: {
-                kr: '디버프 해제 기술 시전 횟수',
-                en: 'The number of times the combatant dispelled.'
+                en: 'The number of times the combatant dispelled.',
+                cn: '驱散次数'
             },
             DPS: 'block',
             HPS: false,
@@ -530,8 +530,8 @@ lang = {
         Death: {
             title: "Deaths",
             ex: {
-                kr: '죽음 횟수',
-                en: 'The number of times this character was killed by another.'
+                en: 'The number of times this character was killed by another.',
+                cn: '阵亡数'
             },
             DPS: true,
             HPS: false,
