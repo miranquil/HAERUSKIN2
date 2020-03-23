@@ -69,11 +69,11 @@ lang = {
         },
         2: {
             en: 'Gradient',
-            cn: '梯度'
+            cn: '渐变'
         },
         3: {
             en: 'Underline',
-            cn: '下划线'
+            cn: '线型'
         }
     },
     number: {
