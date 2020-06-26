@@ -4,8 +4,8 @@ lang = {
     BM: '',
     edit: '',
     data: {
-        en: 'Yorushika [200323] Based on 200219',
-        cn: 'Yorushika 绿叶小踢腿@猫小胖[海猫茶屋] [200323] 基于原版 200219'
+        en: 'Miranquil [200323] Based on 200219',
+        cn: 'Miranquil 绿叶小踢腿@猫小胖[海猫茶屋] [200323] 基于原版 200219'
     },
     size: {
         1: '55.5%',
