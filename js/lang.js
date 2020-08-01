@@ -5,7 +5,7 @@ lang = {
     edit: '',
     data: {
         en: 'Miranquil [200323] Based on 200219',
-        cn: 'Miranquil 拉娜·米果@猫小胖[紫水栈桥] [200323] 基于原版 200219'
+        cn: 'Miranquil 拉娜·米果@陆行鸟[拉诺西亚] [200323] 基于原版 200219'
     },
     size: {
         1: '55.5%',
